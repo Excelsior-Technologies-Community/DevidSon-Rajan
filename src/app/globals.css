@@ -39,7 +39,7 @@ body {
 /*  Headr Content    */
 body {
   padding-top: 30px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 @media only screen and (max-width: 771px) {
   body {
@@ -70,6 +70,10 @@ header {
 
 /* =============================  NAVEBAR ============================================ */
 
+.NNAVE-SECTION{
+  background-color: #33333380;
+}
+
 nav .active {
   border-bottom: 1px solid var(--primary-color);
 }
@@ -86,7 +90,7 @@ nav .active {
 
   nav .active {
     border-radius: 50px;
-    border: 1px solid var(--background-color);
+    border: 3px solid var(--background-color);
   }
 }
 
@@ -309,6 +313,9 @@ nav .active {
   color: var(--primary-color);
 }
 
+.GALLERY .gallery-card-color{
+  background-color: var(--primary-color);
+}
 .GALLERY .GALLERY-IMG img {
   width: 250px;
   max-height: 250px;
@@ -364,22 +371,24 @@ nav .active {
 }
 
 .GALLEY-PAGINATION-SECTION ul {
+  margin-top: 15px;
+  justify-content: center;
+  align-items: center;
   display: flex;
   flex-wrap: nowrap;
-  max-width: 300px;
-  overflow-x: auto;
-  border: 1px solid #141414;
 }
 
 .GALLEY-PAGINATION-SECTION ul li {
+  margin: 5px;
+  color: black;
   cursor: pointer;
-  margin-right: 5px;
   padding: 5px 12px;
   border: 1px solid #141414;
 }
 
 .GALLEY-PAGINATION-SECTION button {
-  height: 50px;
+  background-color: var(--primary-color);
+  /* height: 50px; */
 }
 
 /* =============  CONTACT ============ */

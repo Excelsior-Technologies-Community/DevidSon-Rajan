@@ -2,7 +2,7 @@
     {
         "name": "Grilled Roast Meat",
         "type": "Corporate",
-        "image":"g2.png" 
+        "image":"g1.png" 
     },
     {
         "name": "Ginger Chicken Kabob",
@@ -12,57 +12,52 @@
     {
         "name": "Tandoori Fish",
         "type": "Lux Apartment",
-        "image":"g2.png" 
+        "image":"g3.png" 
     },
     {
         "name": "Night Life",
         "type": "Lifestyle",
-        "image":"g2.png" 
+        "image":"g4.png" 
     },
     {
         "name": "Events Images",
         "type": "Green House",
-        "image":"g2.png" 
+        "image":"g5.png" 
     },
     {
         "name": "Indoors",
         "type": "officespace",
-        "image":"g2.png" 
+        "image":"g6.png" 
     },
     {
         "name": "Grilled Roast Meat",
         "type": "Corporate",
-        "image":"g2.png" 
+        "image":"g7.png" 
     },
     {
         "name": "Ginger Chicken Kabob",
         "type": "Residential",
-        "image":"g2.png" 
+        "image":"g8.png" 
     },
     {
         "name": "Tandoori Fish",
         "type": "Lux Apartment",
-        "image":"g2.png" 
+        "image":"g9.png" 
     },
     {
         "name": "Night Life",
         "type": "Lifestyle",
-        "image":"g2.png" 
+        "image":"g10.png" 
     },
     {
         "name": "Events Images",
         "type": "Green House",
-        "image":"g2.png" 
-    },
-    {
-        "name": "Indoors",
-        "type": "officespace",
-        "image":"g2.png" 
+        "image":"g11.png" 
     },
     {
         "name": "Grilled Roast Meat",
         "type": "Corporate",
-        "image":"g2.png" 
+        "image":"g1.png" 
     },
     {
         "name": "Ginger Chicken Kabob",
@@ -72,57 +67,52 @@
     {
         "name": "Tandoori Fish",
         "type": "Lux Apartment",
-        "image":"g2.png" 
+        "image":"g3.png" 
     },
     {
         "name": "Night Life",
         "type": "Lifestyle",
-        "image":"g2.png" 
+        "image":"g4.png" 
     },
     {
         "name": "Events Images",
         "type": "Green House",
-        "image":"g2.png" 
+        "image":"g5.png" 
     },
     {
         "name": "Indoors",
         "type": "officespace",
-        "image":"g2.png" 
+        "image":"g6.png" 
     },
     {
         "name": "Grilled Roast Meat",
         "type": "Corporate",
-        "image":"g2.png" 
+        "image":"g7.png" 
     },
     {
         "name": "Ginger Chicken Kabob",
         "type": "Residential",
-        "image":"g2.png" 
+        "image":"g8.png" 
     },
     {
         "name": "Tandoori Fish",
         "type": "Lux Apartment",
-        "image":"g2.png" 
+        "image":"g9.png" 
     },
     {
         "name": "Night Life",
         "type": "Lifestyle",
-        "image":"g2.png" 
+        "image":"g10.png" 
     },
     {
         "name": "Events Images",
         "type": "Green House",
-        "image":"g2.png" 
-    },
-    {
-        "name": "Indoors",
-        "type": "officespace",
-        "image":"g2.png" 
+        "image":"g11.png" 
     },
     {
         "name": "Grilled Roast Meat",
         "type": "Corporate",
-        "image":"g2.png" 
+        "image":"g1.png" 
     },
     {
         "name": "Ginger Chicken Kabob",
@@ -132,57 +122,52 @@
     {
         "name": "Tandoori Fish",
         "type": "Lux Apartment",
-        "image":"g2.png" 
+        "image":"g3.png" 
     },
     {
         "name": "Night Life",
         "type": "Lifestyle",
-        "image":"g2.png" 
+        "image":"g4.png" 
     },
     {
         "name": "Events Images",
         "type": "Green House",
-        "image":"g2.png" 
+        "image":"g5.png" 
     },
     {
         "name": "Indoors",
         "type": "officespace",
-        "image":"g2.png" 
+        "image":"g6.png" 
     },
     {
         "name": "Grilled Roast Meat",
         "type": "Corporate",
-        "image":"g2.png" 
+        "image":"g7.png" 
     },
     {
         "name": "Ginger Chicken Kabob",
         "type": "Residential",
-        "image":"g2.png" 
+        "image":"g8.png" 
     },
     {
         "name": "Tandoori Fish",
         "type": "Lux Apartment",
-        "image":"g2.png" 
+        "image":"g9.png" 
     },
     {
         "name": "Night Life",
         "type": "Lifestyle",
-        "image":"g2.png" 
+        "image":"g10.png" 
     },
     {
         "name": "Events Images",
         "type": "Green House",
-        "image":"g2.png" 
-    },
-    {
-        "name": "Indoors",
-        "type": "officespace",
-        "image":"g2.png" 
+        "image":"g11.png" 
     },
     {
         "name": "Grilled Roast Meat",
         "type": "Corporate",
-        "image":"g2.png" 
+        "image":"g1.png" 
     },
     {
         "name": "Ginger Chicken Kabob",
@@ -192,232 +177,46 @@
     {
         "name": "Tandoori Fish",
         "type": "Lux Apartment",
-        "image":"g2.png" 
+        "image":"g3.png" 
     },
     {
         "name": "Night Life",
         "type": "Lifestyle",
-        "image":"g2.png" 
+        "image":"g4.png" 
     },
     {
         "name": "Events Images",
         "type": "Green House",
-        "image":"g2.png" 
+        "image":"g5.png" 
     },
     {
         "name": "Indoors",
         "type": "officespace",
-        "image":"g2.png" 
+        "image":"g6.png" 
     },
     {
         "name": "Grilled Roast Meat",
         "type": "Corporate",
-        "image":"g2.png" 
+        "image":"g7.png" 
     },
     {
         "name": "Ginger Chicken Kabob",
         "type": "Residential",
-        "image":"g2.png" 
+        "image":"g8.png" 
     },
     {
         "name": "Tandoori Fish",
         "type": "Lux Apartment",
-        "image":"g2.png" 
+        "image":"g9.png" 
     },
     {
         "name": "Night Life",
         "type": "Lifestyle",
-        "image":"g2.png" 
+        "image":"g10.png" 
     },
     {
         "name": "Events Images",
         "type": "Green House",
-        "image":"g2.png" 
-    },
-    {
-        "name": "Indoors",
-        "type": "officespace",
-        "image":"g2.png" 
-    },
-    {
-        "name": "Grilled Roast Meat",
-        "type": "Corporate",
-        "image":"g2.png" 
-    },
-    {
-        "name": "Ginger Chicken Kabob",
-        "type": "Residential",
-        "image":"g2.png" 
-    },
-    {
-        "name": "Tandoori Fish",
-        "type": "Lux Apartment",
-        "image":"g2.png" 
-    },
-    {
-        "name": "Night Life",
-        "type": "Lifestyle",
-        "image":"g2.png" 
-    },
-    {
-        "name": "Events Images",
-        "type": "Green House",
-        "image":"g2.png" 
-    },
-    {
-        "name": "Indoors",
-        "type": "officespace",
-        "image":"g2.png" 
-    },
-    {
-        "name": "Grilled Roast Meat",
-        "type": "Corporate",
-        "image":"g2.png" 
-    },
-    {
-        "name": "Ginger Chicken Kabob",
-        "type": "Residential",
-        "image":"g2.png" 
-    },
-    {
-        "name": "Tandoori Fish",
-        "type": "Lux Apartment",
-        "image":"g2.png" 
-    },
-    {
-        "name": "Night Life",
-        "type": "Lifestyle",
-        "image":"g2.png" 
-    },
-    {
-        "name": "Events Images",
-        "type": "Green House",
-        "image":"g2.png" 
-    },
-    {
-        "name": "Indoors",
-        "type": "officespace",
-        "image":"g2.png" 
-    },
-    {
-        "name": "Grilled Roast Meat",
-        "type": "Corporate",
-        "image":"g2.png" 
-    },
-    {
-        "name": "Ginger Chicken Kabob",
-        "type": "Residential",
-        "image":"g2.png" 
-    },
-    {
-        "name": "Tandoori Fish",
-        "type": "Lux Apartment",
-        "image":"g2.png" 
-    },
-    {
-        "name": "Night Life",
-        "type": "Lifestyle",
-        "image":"g2.png" 
-    },
-    {
-        "name": "Events Images",
-        "type": "Green House",
-        "image":"g2.png" 
-    },
-    {
-        "name": "Indoors",
-        "type": "officespace",
-        "image":"g2.png" 
-    },
-    {
-        "name": "Grilled Roast Meat",
-        "type": "Corporate",
-        "image":"g2.png" 
-    },
-    {
-        "name": "Ginger Chicken Kabob",
-        "type": "Residential",
-        "image":"g2.png" 
-    },
-    {
-        "name": "Tandoori Fish",
-        "type": "Lux Apartment",
-        "image":"g2.png" 
-    },
-    {
-        "name": "Night Life",
-        "type": "Lifestyle",
-        "image":"g2.png" 
-    },
-    {
-        "name": "Events Images",
-        "type": "Green House",
-        "image":"g2.png" 
-    },
-    {
-        "name": "Indoors",
-        "type": "officespace",
-        "image":"g2.png" 
-    },
-    {
-        "name": "Grilled Roast Meat",
-        "type": "Corporate",
-        "image":"g2.png" 
-    },
-    {
-        "name": "Ginger Chicken Kabob",
-        "type": "Residential",
-        "image":"g2.png" 
-    },
-    {
-        "name": "Tandoori Fish",
-        "type": "Lux Apartment",
-        "image":"g2.png" 
-    },
-    {
-        "name": "Night Life",
-        "type": "Lifestyle",
-        "image":"g2.png" 
-    },
-    {
-        "name": "Events Images",
-        "type": "Green House",
-        "image":"g2.png" 
-    },
-    {
-        "name": "Indoors",
-        "type": "officespace",
-        "image":"g2.png" 
-    },
-    {
-        "name": "Grilled Roast Meat",
-        "type": "Corporate",
-        "image":"g2.png" 
-    },
-    {
-        "name": "Ginger Chicken Kabob",
-        "type": "Residential",
-        "image":"g2.png" 
-    },
-    {
-        "name": "Tandoori Fish",
-        "type": "Lux Apartment",
-        "image":"g2.png" 
-    },
-    {
-        "name": "Night Life",
-        "type": "Lifestyle",
-        "image":"g2.png" 
-    },
-    {
-        "name": "Events Images",
-        "type": "Green House",
-        "image":"g2.png" 
-    },
-    {
-        "name": "Indoors",
-        "type": "officespace",
-        "image":"g2.png" 
+        "image":"g11.png" 
     }
-    
 ]

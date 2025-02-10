@@ -11,34 +11,32 @@ const Page = () => {
   }
 
   useEffect(() => {
-    fetch("/JsonData/Gallery.json") // Ensure Gallery.json is inside /public
+    fetch("/JsonData/Blog.json") // Ensure Gallery.json is inside /public
       .then((response) => response.json())
       .then((json) => setData(json))
       .catch((error) => console.error("Error fetching JSON:", error));
   }, []);
 
   // Filter data based on category
-  const Corporate = data.filter((list) => list.type === "Corporate");
-  const Residential = data.filter((list) => list.type === "Residential");
+  const Projects = data.filter((list) => list.type === "Projects");
+  const Achievement = data.filter((list) => list.type === "Achievement");
   const LuxApartment = data.filter((list) => list.type === "Lux Apartment");
-  const Lifestyle = data.filter((list) => list.type === "Lifestyle");
-  const GreenHouse = data.filter((list) => list.type === "Green House");
-  const OfficeSpace = data.filter((list) => list.type === "officespace");
+  const NewsUpdates = data.filter((list) => list.type === "News & Updates");
 
   // Determine which data to display
   const ShowData =
     tab === 1
       ? data
       : tab === 2
-      ? Corporate
+      ? Projects
       : tab === 3
-      ? Residential
+      ? Achievement
       : tab === 4
       ? LuxApartment
       : tab === 5
       ? GreenHouse
       : tab === 6
-      ? OfficeSpace
+      ? NewsUpdates
       : [];
 
   const perPagecard = 10;
@@ -69,9 +67,9 @@ const Page = () => {
         <div className="container">
           <div className="row">
             <div className="col-12 p-5 text-center text-light">
-              <h2 className="pt-5 my-2">Gallery</h2>
-              <h6 style={{ fontFamily: "Bellefair" }} className="my-2">
-                Home / Gallery
+              <h2 className="pt-5 my-2">Blog</h2>
+              <h6 className="my-2">
+                Home / Blog
               </h6>
             </div>
           </div>
@@ -84,11 +82,10 @@ const Page = () => {
             <ul className="d-flex">
               {[
                 { id: 1, label: "All" },
-                { id: 2, label: "Corporate" },
-                { id: 3, label: "Residential" },
+                { id: 2, label: "Projects" },
+                { id: 3, label: "Achievement" },
                 { id: 4, label: "Lux Apartment" },
-                { id: 5, label: "Green House" },
-                { id: 6, label: "Office Space" },
+                { id: 5, label: "News & Updates" },
               ].map((tabItem) => (
                 <li
                   key={tabItem.id}
@@ -120,9 +117,9 @@ const Page = () => {
                 currentData.forEach((item, i) => {
                   items.push(
                     <div key={i} className="col-md-4 p-3">
-                      <div className="card gallery-card-color">
+                      <div className="card">
                         <img
-                          src={`/img/${item.image}`} // ✅ Corrected Image Path
+                          src={`/img/${item.image}`}
                           alt={item.name}
                           className="card-img-top"
                           style={{
@@ -132,7 +129,11 @@ const Page = () => {
                           }}
                         />
                         <div className="card-body">
-                          <h5 className="card-title">{item.type}</h5>
+                          <p>By Admin {item.Date}</p>
+                          <h5>{item.text}</h5>
+
+                          <p> Read more -- &gt; </p>
+                
                         </div>
                       </div>
                     </div>

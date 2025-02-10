@@ -15,15 +15,15 @@ const Navbar = () => {
     { name: "About Us", path: "/about" },
     { name: "Project", path: "/project" }, 
     { name: "Gallery", path: "/gallery" }, 
-    { name: "Blog", path: "/services" },
+    { name: "Blog", path: "/blog" },
     { name: "Contact Us", path: "/contactUs" },
   ];
 
   return (
     <div>
-      <section className="container-fluid mt-0">
-        <nav className="navbar navbar-expand-lg">
-          <div className="container">
+      <section className="container-fluid mt-0 NNAVE-SECTION ">
+        <nav className=" navbar navbar-expand-lg">
+          <div className="container" >
             <Link className="navbar-brand" href="/">
               <Image src={logo} alt="logo" />
             </Link>

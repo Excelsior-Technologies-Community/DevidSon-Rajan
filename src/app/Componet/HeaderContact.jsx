@@ -16,10 +16,10 @@ const HeaderContact = () => {
 
                         <div
                             className="col-md-8 col-sm-12 d-flex flex-column flex-md-row justify-content-center justify-content-md-end align-items-center">
-                            <span className="text-nowrap m-1">
+                            <span className="text-nowrap m-1 text-black">
                                 <i className="bi bi-telephone-fill m-1"></i> Call Us: (+1) 985625741
                             </span>
-                            <span className="text-nowrap m-1">
+                            <span className="text-nowrap m-1 text-black">
                                 <i className="bi bi-envelope-fill m-1"></i> Email: info@web.com
                             </span>
                         </div>
