@@ -1,6 +1,6 @@
 "use client";
-import Image from "next/image";
 import React, { useState, useEffect } from "react";
+
 
 const Page = () => {
   const [data, setData] = useState([]);
@@ -70,7 +70,7 @@ const Page = () => {
           <div className="row">
             <div className="col-12 p-5 text-center text-light">
               <h2 className="pt-5 my-2">Gallery</h2>
-              <h6 style={{ fontFamily: "Bellefair" }} className="my-2">
+              <h6  className="my-2">
                 Home / Gallery
               </h6>
             </div>
@@ -80,8 +80,8 @@ const Page = () => {
       {/* TAB SECTION */}
       <section className="container-fluid pt-5 GALLERY-SECTION-TAB">
         <div className="container">
-          <div className="row GALLERY-CARD">
-            <ul className="d-flex">
+          <div className="row">
+            <ul className="d-flex  GALLERY-TAB">
               {[
                 { id: 1, label: "All" },
                 { id: 2, label: "Corporate" },
@@ -92,7 +92,7 @@ const Page = () => {
               ].map((tabItem) => (
                 <li
                   key={tabItem.id}
-                  className="p-1 mx-2"
+                  className="p-1 mx-2 text-nowrap"
                   onClick={() => handleActiveLink(tabItem.id)}
                   style={{
                     color:

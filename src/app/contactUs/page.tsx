@@ -1,27 +1,5 @@
 "use client";
 
-import Image from "next/image";
-import AboutImg from "../../../public/img/about.png";
-
-import ResentImg from "../../../public/img/img-2.png";
-import ResentImg1 from "../../../public/img/img-3.png";
-
-import g2 from "../../../public/img/g2.png";
-
-import TestmoniceQutesImage from "../../../public/img/qoute.png";
-
-// patner image
-import patnerImg1 from "../../../public/img/partner1.png";
-import patnerImg2 from "../../../public/img/partner2.png";
-import patnerImg3 from "../../../public/img/partner3.png";
-import patnerImg4 from "../../../public/img/partner4.png";
-import patnerImg5 from "../../../public/img/partner5.png";
-import patnerImg6 from "../../../public/img/partner6.png";
-
-import HomeGalleryImag1 from "../../../public/img/img-1.png";
-import HomeGalleryImag2 from "../../../public/img/img-2.png";
-import HomeGalleryImag3 from "../../../public/img/img-3.png";
-import HomeGalleryImag4 from "../../../public/img/img-4.png";
 
 const page = () => {
   return (
@@ -32,7 +10,7 @@ const page = () => {
           <div className="row ">
             <div className="col-12  p-5 text-center text-light">
               <h2 className="pt-5 my-2">Contact us </h2>
-              <h6 style={{ fontFamily: "Bellefair;" }} className="my-2">
+              <h6  className="my-2">
                 Home / Contact Us
               </h6>
             </div>

@@ -320,6 +320,9 @@ nav .active {
   width: 250px;
   max-height: 250px;
 }
+.GALLERY-TAB{
+  overflow-x: auto;
+}
 
 /* ===============   ABOUT PAGE ==================== */
 

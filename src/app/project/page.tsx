@@ -1,19 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import AboutImg from "../../../public/img/about.png";
-
-import ResentImg from "../../../public/img/img-2.png";
-import ResentImg1 from "../../../public/img/img-3.png";
-
-import g2 from "../../../public/img/g2.png";
-
-import TestmoniceQutesImage from "../../../public/img/qoute.png";
-
-// ABOUT-WORK imGE
-import AboutWork from "../../../public/img/p13.png";
-import AboutWork1 from "../../../public/img/p14.png";
-
 // RESIDENTIAL-PROJECTS
 
 import ResidenitalProject from "../../../public/img/p1.png";
@@ -32,17 +19,6 @@ import CommerctalProject4 from "../../../public/img/p10.png";
 import CommerctalProject5 from "../../../public/img/p11.png";
 import CommerctalProject6 from "../../../public/img/p12.png";
 
-import patnerImg1 from "../../../public/img/partner1.png";
-import patnerImg2 from "../../../public/img/partner2.png";
-import patnerImg3 from "../../../public/img/partner3.png";
-import patnerImg4 from "../../../public/img/partner4.png";
-import patnerImg5 from "../../../public/img/partner5.png";
-import patnerImg6 from "../../../public/img/partner6.png";
-
-import HomeGalleryImag1 from "../../../public/img/img-1.png";
-import HomeGalleryImag2 from "../../../public/img/img-2.png";
-import HomeGalleryImag3 from "../../../public/img/img-3.png";
-import HomeGalleryImag4 from "../../../public/img/img-4.png";
 
 const page = () => {
   return (

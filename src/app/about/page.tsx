@@ -10,10 +10,9 @@ import g2 from "../../../public/img/g2.png";
 
 import TestmoniceQutesImage from "../../../public/img/qoute.png";
 
-// patner image
+// partner image
 import patnerImg1 from "../../../public/img/partner1.png";
 import patnerImg2 from "../../../public/img/partner2.png";
-import patnerImg3 from "../../../public/img/partner3.png";
 import patnerImg4 from "../../../public/img/partner4.png";
 import patnerImg5 from "../../../public/img/partner5.png";
 import patnerImg6 from "../../../public/img/partner6.png";
@@ -22,9 +21,6 @@ import HomeGalleryImag1 from "../../../public/img/img-1.png";
 import HomeGalleryImag2 from "../../../public/img/img-2.png";
 import HomeGalleryImag3 from "../../../public/img/img-3.png";
 import HomeGalleryImag4 from "../../../public/img/img-4.png";
-
-
-
 
 const page = () => {
   return (
@@ -35,7 +31,7 @@ const page = () => {
           <div className="row ">
             <div className="col-12  p-5 text-center text-light">
               <h2 className="pt-5 my-2">About us </h2>
-              <h6 style={{ fontFamily: "Bellefair;" }} className="my-2">
+              <h6 className="my-2">
                 Home / About Us
               </h6>
             </div>
@@ -51,7 +47,7 @@ const page = () => {
                 <h6>ABOUT US</h6>
 
                 <p>
-                  Let's Get To Know Each Other Rem atque earum sed possimus
+                  Let&apos;s Get To Know Each Other Rem atque earum sed possimus
                   eaque quae magnam. Unde sunt et et cumque ipsa. Eos soluta
                   voluptatibus quas sapiente eum. Quibusdam quos rerum
                   Blanditiis rerum maxime perspiciatis rerum labore molestiae
@@ -106,7 +102,6 @@ const page = () => {
         </div>
       </section>
 
-
       <section className="container-fluid py-5 ">
         <div className="container ">
           <div className="row py-5 ">
@@ -116,7 +111,7 @@ const page = () => {
               </div>
             </div>
             <div className="col-md-6 d-flex justify-content-center align-items-center">
-              <div  className="p-lg-3 p-2 ">
+              <div className="p-lg-3 p-2 ">
                 <h2>Our Vision</h2>
                 <p>
                   <small>
@@ -147,9 +142,9 @@ const page = () => {
         </div>
       </section>
 
-        {/* <!-- TESTIMONIA  --> */}
+      {/* <!-- TESTIMONIA  --> */}
 
-        <section className="container-fluid  p-0 TESTIMONIA">
+      <section className="container-fluid  p-0 TESTIMONIA">
         <div
           style={{
             background: "#121d27ed",
@@ -162,7 +157,7 @@ const page = () => {
             <div className="row  py-5 justify-content-center align-items-center">
               <div className="row text-center my-5 ">
                 <h6> TESTIMONIA </h6>
-                <h3 className="text-light">In The Words Of Our Clinets</h3>
+                <h3 className="text-light">In The Words Of Our Clients</h3>
               </div>
 
               <div className="row">
@@ -178,9 +173,8 @@ const page = () => {
                       </div>
 
                       <p>
-                        " Nihil sed corrupti ut est. Neque voluptatibus amet
-                        nisi et eaque dolorum reprehenderit. Nihil harum
-                        provident id nemo voluptas qui. "
+                        &quot; Nihil sed corrupti ut est. Neque voluptatibus amet
+                        nisi et eaque dolorum reprehenderit. Nihil harum provident id nemo voluptas qui. &quot;
                       </p>
 
                       <p>-Madisyn Dooley</p>
@@ -200,9 +194,8 @@ const page = () => {
                       </div>
 
                       <p>
-                        " Nihil sed corrupti ut est. Neque voluptatibus amet
-                        nisi et eaque dolorum reprehenderit. Nihil harum
-                        provident id nemo voluptas qui. "
+                        &quot; Nihil sed corrupti ut est. Neque voluptatibus amet
+                        nisi et eaque dolorum reprehenderit. Nihil harum provident id nemo voluptas qui. &quot;
                       </p>
 
                       <p>-Madisyn Dooley</p>
@@ -222,9 +215,8 @@ const page = () => {
                       </div>
 
                       <p>
-                        " Nihil sed corrupti ut est. Neque voluptatibus amet
-                        nisi et eaque dolorum reprehenderit. Nihil harum
-                        provident id nemo voluptas qui. "
+                        &quot; Nihil sed corrupti ut est. Neque voluptatibus amet
+                        nisi et eaque dolorum reprehenderit. Nihil harum provident id nemo voluptas qui. &quot;
                       </p>
 
                       <p>-Madisyn Dooley</p>
@@ -352,29 +344,53 @@ const page = () => {
         </div>
       </section>
 
-
-
       {/*======== WRITE TO US ====== */}
       <section className="container-fluid py-5 bg-dark text-light  WRITE-TO-US  ">
         <div className="container ">
-          <div className="row text-center">
-            <h6>WRITE TO US</h6>
-            <h2>Get In Touch With Us</h2>
-            <p>
-              Modi nostrum corrupti praesentium enim eveniet nulla qui sit est.
-              Nam et explicabo.Consequatur mollitia laboriosam quisquam
-              asperiores. Optio ducimus nihil aut consequatur et eos quisquam ut
-              neque.
-            </p>
+          <div className="row ">
+            <div className="col-md-6 d-flex justify-content-center align-items-center ">
+              <div className="p-2">
+                <h2 className="pb-3 text-light">Write To Us</h2>
+                <p className="text-light">
+                  As voluptatem provident ut ut aut. Fugit deserunt enim autem sed qui
+                  libero dolor. Rerum fugiat mollitia libero ab voluptatem.
+                </p>
+              </div>
+            </div>
+            <div className="col-md-6 p-2">
+              <div className="col-md-12">
+                <form action="#" method="post">
+                  <input
+                    type="text"
+                    name="your-name"
+                    id="your-name"
+                    placeholder="Your Name"
+                    className="form-control py-3 mb-3"
+                  />
 
-            <button type="button" className="btn  my-1">
-              Contact Us
-            </button>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Email Address"
+                    className="form-control py-3 mb-3"
+                  />
+
+                  <textarea
+                    name="message"
+                    id="message"
+                    rows={4}
+                    placeholder="Message"
+                    className="form-control py-3 mb-3"
+                  ></textarea>
+
+                  <button className="btn btn-warning">Submit</button>
+                </form>
+              </div>
+            </div>
           </div>
         </div>
       </section>
-
-  
     </div>
   );
 };

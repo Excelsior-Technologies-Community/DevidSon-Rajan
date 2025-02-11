@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import NextTopLoader from 'nextjs-toploader';
 import "./globals.css";
 
 // componet
@@ -50,7 +51,7 @@ export default function RootLayout({
           <HeaderContact />
           <Navebar />
         </header>
-        
+        <NextTopLoader />
         {children}
         <Footer />
         <script

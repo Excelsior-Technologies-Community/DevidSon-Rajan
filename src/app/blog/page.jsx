@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image";
+
 import React, { useState, useEffect } from "react";
 
 const Page = () => {
@@ -78,8 +78,8 @@ const Page = () => {
       {/* TAB SECTION */}
       <section className="container-fluid pt-5 GALLERY-SECTION-TAB">
         <div className="container">
-          <div className="row GALLERY-CARD">
-            <ul className="d-flex">
+          <div className="row ">
+            <ul className="d-flex GALLERY-TAB">
               {[
                 { id: 1, label: "All" },
                 { id: 2, label: "Projects" },
